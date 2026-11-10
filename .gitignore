@@ -1,0 +1,31 @@
+# Local environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Credentials, account data, browser state, and screenshots
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+data/
+artifacts/
+screenshots/
+downloads/
+*.db
+*.sqlite*
+*.log
+playwright-report/
+test-results/
+
+# Local archives and editor state
+legacy/
+backups/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
